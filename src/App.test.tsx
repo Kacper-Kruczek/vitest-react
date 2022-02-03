@@ -12,7 +12,7 @@ describe("Simple working test", () => {
 
   it("should start with custom counter", () => {
     render(<App initialCounter={1} />);
-    expect(screen.getByText("counter:1")).toBeInTheDocument();
+    expect(screen.getByText("counter:2")).toBeInTheDocument();
   });
 
   it("should increment counter on click", async () => {

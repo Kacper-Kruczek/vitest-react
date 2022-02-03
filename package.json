@@ -1,12 +1,12 @@
 {
-  "name": "vitest/react",
+  "name": "vitest-react",
   "private": true,
   "scripts": {
     "build": "tsc && vite build",
-    "coverage": "vitest run --coverage",
+    "coverage": "vitest run --coverage --reporter=junit",
     "dev": "vite",
     "preview": "vite preview",
-    "test": "vitest",
+    "test": "vitest -w",
     "test:ui": "vitest --ui"
   },
   "dependencies": {
