@@ -10,6 +10,7 @@
     "test:ui": "vitest --ui"
   },
   "dependencies": {
+    "@unocss/reset": "^0.24.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -20,10 +21,13 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
+    "@unocss/preset-attributify": "^0.24.3",
+    "@unocss/preset-uno": "^0.24.3",
     "@vitejs/plugin-react": "^1.1.4",
     "@vitest/ui": "latest",
     "c8": "^7.11.0",
     "jsdom": "latest",
+    "unocss": "^0.24.2",
     "vite": "latest",
     "vitest": "latest"
   }
